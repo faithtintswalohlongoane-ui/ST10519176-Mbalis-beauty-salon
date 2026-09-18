@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap');
+
+body{
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+}
+.whatsapp-float{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 15px;
+  box-shadow: 0 4px 15px black;
+  z-index: 1000;
+}
+
+.whatsapp-float:hover{
+  background-color: green;
+}
+.nav-buttons{
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.nav-btn{
+  background-color: hotpink;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  border: 2px solid deeppink;
+}
+
+.nav-btn:hover{
+  background-color: white;
+  color: deeppink;
+}
+
+.top-bar{
+  background-color: black;
+  color: hotpink;
+  padding: 10px 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+nav{
+  background-color: black;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.hero{
+  background: linear-gradient(to bottom, black, #1a2a4a, #4a6fa5);
+  padding: 80px 20px;
+  color: white;
+}
+
+.look-good{
+  font-family: 'Playfair Display', serif;
+  font-size: 55px;
+  margin: 0;
+  color: #d6e8ff;
+  font-weight: bold;
+}
+
+.feel-confident{
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  margin: -15px 0 0 0;
+  color: #e9a0ff;
+  font-weight: normal;
+}
+
+.hero p{
+  font-size: 13px;
+  max-width: 400px;
+  margin-top: 15px;
+  color: #cbd5e0;
+}
+
+.btn-whatsapp{
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #f8c6ff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2{
+  color: deeppink;
+  margin: 30px 20px 10px 20px;
+  font-family: Arial;
+}
+
+.box{
+  background-color: #fff0f5;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 5px solid hotpink;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid pink;
+  font-weight: bold;
+}
+
+.gallery img{
+  width: 45%;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.form-box{
+  background-color: white;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid pink;
+}
+
+.form-box input, .form-box select{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid pink;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.book-btn{
+  display: block;
+  text-align: center;
+  background-color: deeppink;
+  color: white;
+  padding: 12px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.map-box{
+  margin: 20px;
+}
+.footer-belt{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.pink-line{
+  height: 6px;
+  background-color: hotpink;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.footer-belt p{
+  margin: 5px 0;
+  color: lightpink;
+}
